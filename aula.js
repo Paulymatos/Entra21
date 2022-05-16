@@ -118,6 +118,9 @@
 //     analisarcondicoes()
 // }
 
+/*
+7.	Faça um programa que leia 5 números e informe o maior número.
+*/
 function exercicio106() {
 
     let listaDeNumeros = []
@@ -132,9 +135,6 @@ function exercicio106() {
 
     // [2, 4, 1, 6, 5, 10]
 
-
-
-
     let maiorNumero = -99999
     for (let i = 0; i < listaDeNumeros.length; i++) {
         if(maiorNumero  < listaDeNumeros [i]){
@@ -145,6 +145,9 @@ function exercicio106() {
     alert(" maior numero é: " + maiorNumero)
 }
 
+/*
+8.	Faça um programa que leia 5 números e informe a soma e a média dos números.
+*/
 function exercicio107() {
 
     let numero = []
@@ -170,7 +173,9 @@ function exercicio107() {
 
 }
 
-
+/*
+9.	Faça um programa que imprima na tela apenas os números ímpares entre 1 e 50.
+*/
 function exercicio108() {
     let numImpar = []
 

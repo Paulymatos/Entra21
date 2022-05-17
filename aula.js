@@ -137,8 +137,8 @@ function exercicio106() {
 
     let maiorNumero = -99999
     for (let i = 0; i < listaDeNumeros.length; i++) {
-        if(maiorNumero  < listaDeNumeros [i]){
-           maiorNumero = listaDeNumeros[i]
+        if (maiorNumero < listaDeNumeros[i]) {
+            maiorNumero = listaDeNumeros[i]
         }
     }
 
@@ -186,5 +186,47 @@ function exercicio108() {
     }
 
     alert("Os numeros impares são: " + numImpar)
+
+}
+function exercicio113() {
+
+    let base
+    let expoente
+
+    base = parseFloat(prompt(" Escreva a base:"))
+    expoente = parseFloat(prompt(" Escreva a base:"))
+    let aritmetica = base
+    // let variavelDeControle = 1;
+    // while (variavelDeControle < expoente) {
+    //     aritmetica = aritmetica * base
+    //     console.log(aritmetica)
+    //     variavelDeControle++;
+    // }
+    for (let i = 1; i < expoente; i++) {
+        aritmetica = aritmetica * base
+        console.log(aritmetica)
+    }
+    alert("seu resultado é:" + aritmetica)
+}
+function exercicio114() {
+    let escolha
+    let numeros = []
+
+    do {
+        escolha = parseFloat(prompt(" Escreva seu numero:"))
+        numeros.push(escolha)
+
+    } while (numeros.length < 10)
+
+    let total = 0
+
+    for (let i = 0; i < numeros.length; i++) {
+        total = total + numeros[i]
+        console.log(total)
+    }
+
+
+
+
 
 }

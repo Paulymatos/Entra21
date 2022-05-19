@@ -208,6 +208,7 @@ function exercicio113() {
     }
     alert("seu resultado é:" + aritmetica)
 }
+
 function exercicio114() {
     let escolha
     let numeros = []
@@ -224,9 +225,26 @@ function exercicio114() {
         total = total + numeros[i]
         console.log(total)
     }
+}
 
+function exercicio120() {
 
+    let termo
+    let t1 = 0
+    let t2 = 1
+    let t3
+    let contador = 2
 
-
+    termo = parseFloat(prompt(" escreva qual termo"))
+    
+    console.log(t2)
+    while (contador <= termo) {
+        t3 = t2 + t1
+        console.log(t3)
+        t1 = t2
+        t2 = t3
+        contador++
+    }
+   
 
 }

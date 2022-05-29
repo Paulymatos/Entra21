@@ -248,3 +248,11 @@ function exercicio120() {
    
 
 }
+
+function uedmy(){
+    let usuario
+
+    usuario = prompt(" Qual é seu nome?");
+
+    alert (" Bem vindo")
+}

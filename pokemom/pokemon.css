@@ -1,0 +1,58 @@
+body{
+    background-color: aliceblue;
+    margin:auto;
+    width: 600px;
+        
+}
+header{
+    text-shadow: 0px 2px 3px; 
+    color: black;
+    text-align: center;
+    font-family:"Pokemon Hollow";
+}
+.fundobranco{
+    background-color: aliceblue;
+    
+}
+.name{
+    font-family:"Pokemon Classic" ;
+    text-align: center
+
+}
+.box{
+    margin: 10px auto;
+    border: 9px solid black;
+    border-radius: 20px;
+    width: 500px;
+    padding: 23px;
+}
+.tipo{
+    text-align: center
+}
+.grama{
+   width: 15%;
+   background-color: #9bcc50;
+   border-radius: 5px;
+   text-align: center;
+}
+.fogo{
+    width: 15%;
+    background-color:orange ;
+}
+.normal{
+    width: 15%;
+    background-color: gray;
+}
+.eletrico{
+    width: 15%;
+    background-color: yellow;
+}
+.agua{
+    width: 15%;
+    background-color: rgb(93, 165, 247);
+}
+.fada{
+    width: 15%;
+    background-color: rgb(251, 128, 128);
+}
+

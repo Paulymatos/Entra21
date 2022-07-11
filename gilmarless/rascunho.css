@@ -1,0 +1,19 @@
+.cadastro{
+    color: #fff;
+    text-decoration: none;
+    letter-spacing: 3px;
+    background: rgb(209, 8, 209);
+    border: 3px rgba(209, 8, 209);
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.login{
+    color: #fff;
+    text-decoration: none;
+    letter-spacing: 3px;
+    background: rgba(209, 8, 209);
+    border: 3px rgba(209, 8, 209);
+    border-radius: 10px;
+    padding: 5px;
+}

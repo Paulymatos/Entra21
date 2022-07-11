@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&family=Roboto+Slab&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Roboto Slab', serif;
+   
+}
+
+header{
+    z-index: 999;
+    display: flex;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 200px;
+    transition: 0.5s ease;
+    background-image: linear-gradient(to right,#25a244, #4ad66d,#beee62);
+}
+
+header .brand{
+    color: #fff;
+    font-size: 1.5em;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+header .navigation{
+    position: relative;
+}
+
+header .navigation .navigation-items a{
+    position: relative;
+    color: #fff;
+    font-size: 1em;
+    font-weight: 500;
+    text-decoration: none;
+    margin-left: 30px;
+    transition: 0.3s ease; 
+}
+
+header .navigation .navigation-items a:before{
+    content: '';
+    position: absolute;
+    background: #fff;
+    width: 0;
+    height: 3px;
+    bottom: 0;
+    left: 0;
+    transition: 0.3s ease;
+}
+
+header .navigation .navigation-items a:hover:before{
+    width: 100%;
+    background-color: #55a630;
+}
+
+section{
+    padding: 100px 200px;
+}
+
+.home{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: inline-block;
+    justify-content: center;
+    flex-direction: column;
+    background: black; 
+}
+
+.video{
+    margin: auto;
+    margin-bottom: 10vh;
+}
+
+.img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    gap: 15px;
+}
+
+.imgs{
+    margin-top: 200px;
+    display:inline-block;
+    width: 20%;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 0px 0px 10px;
+    border-radius: 25px;
+    transition: 0.3s ease;
+    box-shadow: 0.8px 0.8px 1.8px white;
+}
+.imgs:hover{
+    transform: scale(1.1);
+    padding: 5px;
+}
+.texto{
+    text-transform: uppercase;
+    margin-top: 15px;
+    color: white;
+    text-align: center;
+}
+footer{
+        z-index: 999;
+        display: flex;
+        width: 100%;
+        top: 0;
+        left: 0;
+        justify-content: space-between;
+        align-items: center;
+        padding: 15px 200px;
+        transition: 0.5s ease;
+        background-image: linear-gradient(to right,#25a244, #4ad66d,#beee62);
+        color: #fff;
+    font-size: 0.8em;
+    font-weight: 200;
+    text-transform: capitalize;
+    text-decoration: none;
+    }
+
+

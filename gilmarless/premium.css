@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&family=Roboto+Slab&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Roboto Slab', serif;
+   
+   
+}
+
+header{
+    z-index: 999;
+    display: flex;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 200px;
+    transition: 0.5s ease;
+    background-image: linear-gradient(to right,#25a244, #4ad66d,#beee62);
+}
+header .brand{
+    color: #fff;
+    font-size: 1.5em;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.container{
+   
+}
+.banner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10vh;
+    background-image: linear-gradient(to right,#82e16f,#343a40);
+   padding: 5vh;
+}
+.imgs{
+    margin-top: 200px;
+    display:inline-block;
+    width: 40%;
+    align-items: center;
+    justify-content: space-between;
+    margin: 50px 0px 50px 0px;
+    border-radius: 25px;
+    transition: 0.3s ease;
+}
+.anuncio{
+    color: #fff;
+    font-size: 1.5em;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.text{
+    text-align: justify;
+    margin: 5vh;
+}
+.text >.infor{
+    padding: 5vh;
+}
+
+
+footer{
+    z-index: 999;
+    display: flex;
+    width: 100%;
+    top: 0;
+    left: 0;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 200px;
+    transition: 0.5s ease;
+    background-image: linear-gradient(to right,#25a244, #4ad66d,#beee62);
+    color: #fff;
+font-size: 0.8em;
+font-weight: 200;
+text-transform: capitalize;
+text-decoration: none;
+}
